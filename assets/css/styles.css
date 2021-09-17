@@ -84,8 +84,8 @@
   }
 
 /*========== CLASS CSS ==========*/
-.section{
-    padding: 4rem 0 2rem;
+section{
+    padding: 7rem 0 2rem;
   }
 
 /*========== LAYOUT ==========*/
@@ -256,13 +256,13 @@
     object-fit: cover;
   }
   .home-container{
-    padding: 14rem 2rem 0;
     row-gap: .5rem;
     justify-content: center;
     text-align: center;
   }
   
   .home-img{
+    margin-top: 60px;
     width: 480px;
     justify-self: center;
   }
@@ -402,6 +402,89 @@
     transition: all ease 0.5s;
 }
   /*========== MEDIA QUERIES ==========*/
+  @media screen and (max-width: 359px){
+    .nav{
+      height: calc(var(--header-height) + 1.5rem);
+    }
+    .home-img{
+      width: 100%;
+    }
+    .home-data h1{
+      font-size: 1.4rem;
+    }
+
+    .home-data h1 span{
+      font-size: 1.4rem;
+    }
+
+    .container-social{
+      padding: 8rem 0 0;
+      justify-content: center;
+    }
+
+    .home-description{
+      font-size: var(--normal-font-size);
+    }
+  }
+
+  @media screen and (min-width: 359px){
+    .nav{
+      height: calc(var(--header-height) + 1.5rem);
+    }
+    .home-img{
+      width: 330px;
+    }
+    .container-social{
+      padding: 8rem 0 0;
+      justify-content: center;
+    }
+    .home-description{
+      font-size: var(--h2-font-size);
+      margin-bottom: var(--mb-3);
+    }
+    .home-data h1{
+      font-size: 1.6rem;
+    }
+
+    .home-data h1 span{
+      font-size: 1.6rem;
+    }
+
+    .home-description{
+      font-size: var(--normal-font-size);
+    }
+    
+  }
+
+  @media screen and (min-width: 576px){
+    .nav{
+      height: calc(var(--header-height) + 1.5rem);
+    }
+    .home-container{
+      align-items: center;
+    }
+  
+    .home-img{
+      width: 420px;
+    }
+    .container-social{
+      padding: 8rem 0 0;
+      justify-content: center;
+    }
+
+    .home-data h1{
+      font-size: 2rem;
+    }
+
+    .home-data h1 span{
+      font-size: 2rem;
+    }
+
+    .home-description{
+      font-size: var(--h2-font-size);
+    }
+    
+  }
   @media screen and (min-width: 768px){
   
     body{
@@ -430,6 +513,20 @@
     .nav-toggle{
       display: none;
     }
+    .container-social{
+      padding: 10rem 0 0;
+      justify-content: center;
+    }
+    .home-img{
+      width: 450px;
+    }
+    .home-data h1{
+      font-size: var(--big-font-size);
+    }
+
+    .home-data h1 span{
+      font-size: var(--big-font-size);
+    }
   }
 
   @media screen and (min-width: 968px){
@@ -440,6 +537,14 @@
   
     .home-img{
       width: 470px;
+    }
+
+    .home-data h1{
+      font-size: var(--big-font-size);
+    }
+
+    .home-data h1 span{
+      font-size: var(--big-font-size);
     }
   
   }

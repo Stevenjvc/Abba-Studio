@@ -516,7 +516,7 @@ section{
       display: none;
     }
     .container-social{
-      padding: 8rem 0 0;
+      padding: 7rem 0 0;
       justify-content: center;
     }
     .home-img{
@@ -547,9 +547,5 @@ section{
 
     .home-data h1 span{
       font-size: var(--big-font-size);
-    }
-    .container-social{
-      padding: 7rem 0 0;
-      justify-content: left;
     }
   }

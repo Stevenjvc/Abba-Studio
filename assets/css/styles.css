@@ -92,7 +92,7 @@ section{
 .l-main{
     overflow: hidden;
   }
-section .home{
+.home{
     height: 100vh;
 }
 .bd-container{
@@ -549,7 +549,7 @@ section .home{
       font-size: var(--big-font-size);
     }
     .container-social{
-      padding: 10rem 0 0;
-      justify-content: center;
+      padding: 7rem 0 0;
+      justify-content: left;
     }
   }

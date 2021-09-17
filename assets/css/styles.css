@@ -91,12 +91,9 @@ section{
 /*========== LAYOUT ==========*/
 .l-main{
     overflow: hidden;
+    height: 100vh;
   }
 
-section .home{
-    height: 100vh;
-}
-  
 .bd-container{
     max-width: 1500px;
     width: calc(100% - 3rem);
@@ -551,7 +548,7 @@ section .home{
       font-size: var(--big-font-size);
     }
     .container-social{
-      padding: 10rem 0 0;
+      padding: 7rem 0 0;
       justify-content: center;
     }
   }

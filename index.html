@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Abba Studio</title>
+</head>
+<body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+    
+    <!-- Logo -->
+            <a href="#" class="nav-logo">
+                 <img src="assets/img/AbbaLogoNav.png">
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link active-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#sobre nosotros" class="nav-link">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="#trabajos" class="nav-link">Trabajos</a></li>
+               
+                    <!-- Boton Contactanos -->
+        <a href="#" class="btn-contact">Contactanos <i class="fas fa-chevron-right"></i></a>
+
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+        
+        <!-- Video BG -->
+        <video class="video-bg" src="assets/img/BgInicio.mp4" autoplay muted loop></video>
+           
+            <div class="home-container bd-container bd-grid">
+                <div class="home-img">
+                    <img src="assets/img/AbbaLogoInicio.png" alt="">
+                </div>
+
+                <div class="home-data">
+                    <h1><span class="type"></span> tu marca</h1>
+                    <p class="home-description">Convertimos ideas en extraordinarios productos y experiencias digitales.</p>
+                </div>   
+            </div>
+        <!-- Redes Sociales -->
+        <div class="container-social bd-container">
+            <div class="icon facebook">
+                <div class="tooltip">
+                   Facebook
+                </div>
+                <span><i class='bx bxl-facebook' ></i></span>
+             </div>
+             <div class="icon instagram">
+                <div class="tooltip">
+                   Instagram
+                </div>
+                <span><i class='bx bxl-instagram' ></i></span>
+             </div>
+             <div class="icon whatsapp">
+                <div class="tooltip">
+                   Whatsapp
+                </div>
+                <span><i class='bx bxl-whatsapp'></i></span>
+             </div>
+        </div>
+        </section>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Escritura Animación -->
+    <script>
+        var typed = new Typed('.type', {
+    
+    strings: ['Transforma', 'Crea', 'Diseña'],
+    typeSpeed:100,
+    backSpeed:70,
+    loop:true,
+    });
+    </script>
+</body>
+</html>

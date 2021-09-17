@@ -92,6 +92,10 @@ section{
 .l-main{
     overflow: hidden;
   }
+
+section .home{
+    height: 100vh;
+}
   
 .bd-container{
     max-width: 1500px;
@@ -514,7 +518,7 @@ section{
       display: none;
     }
     .container-social{
-      padding: 10rem 0 0;
+      padding: 8rem 0 0;
       justify-content: center;
     }
     .home-img{
@@ -546,5 +550,8 @@ section{
     .home-data h1 span{
       font-size: var(--big-font-size);
     }
-  
+    .container-social{
+      padding: 10rem 0 0;
+      justify-content: center;
+    }
   }

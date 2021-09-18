@@ -52,7 +52,7 @@
   }
 
   body{
-    margin: var(--header-height) 0 0 0;
+    margin: 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--black-color);
@@ -405,6 +405,12 @@ section{
 }
   /*========== MEDIA QUERIES ==========*/
   @media screen and (max-width: 359px){
+    .home{
+      height: 100vh;
+  }
+    section{
+      padding-top: 4rem;
+    }
     .nav{
       height: calc(var(--header-height) + 1.5rem);
     }
@@ -412,15 +418,15 @@ section{
       width: 100%;
     }
     .home-data h1{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
     .home-data h1 span{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
     .container-social{
-      padding: 8rem 0 0;
+      padding: 5rem 0 0;
       justify-content: center;
     }
 
@@ -430,6 +436,9 @@ section{
   }
 
   @media screen and (min-width: 359px){
+    section{
+      padding-top: 4rem;
+    }
     .nav{
       height: calc(var(--header-height) + 1.5rem);
     }
@@ -437,7 +446,7 @@ section{
       width: 330px;
     }
     .container-social{
-      padding: 8rem 0 0;
+      padding: 5rem 0 0;
       justify-content: center;
     }
     .home-description{
@@ -469,10 +478,6 @@ section{
     .home-img{
       width: 420px;
     }
-    .container-social{
-      padding: 8rem 0 0;
-      justify-content: center;
-    }
 
     .home-data h1{
       font-size: 2rem;
@@ -493,7 +498,7 @@ section{
       margin: 0;
     }
   
-    .section{
+    section{
       padding-top: 7rem;
     }
   
@@ -532,6 +537,9 @@ section{
   }
 
   @media screen and (min-width: 968px){
+    section{
+      padding-top: 11rem;
+    }
     .bd-container{
       margin-left: auto;
       margin-right: auto;

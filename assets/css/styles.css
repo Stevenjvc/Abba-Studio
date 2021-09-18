@@ -433,6 +433,12 @@ section{
     .home-description{
       font-size: var(--normal-font-size);
     }
+    .container-social .icon{
+      cursor: none;
+    }
+    .nav-toggle{
+      cursor: none;
+    }
   }
 
   @media screen and (min-width: 359px){
@@ -464,7 +470,12 @@ section{
     .home-description{
       font-size: var(--normal-font-size);
     }
-    
+    .container-social .icon{
+      cursor: none;
+    }
+    .nav-toggle{
+      cursor: none;
+    }
   }
 
   @media screen and (min-width: 576px){
@@ -499,7 +510,7 @@ section{
     }
   
     section{
-      padding-top: 7rem;
+      padding-top: 11rem;
     }
   
     .nav{
@@ -523,6 +534,9 @@ section{
     .container-social{
       padding: 7rem 0 0;
       justify-content: center;
+    }
+    .container-social .icon{
+      cursor: pointer;
     }
     .home-img{
       width: 450px;

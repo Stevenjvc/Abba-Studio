@@ -267,8 +267,9 @@ section{
   }
   
   .home-img{
-    margin-top: 60px;
-    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     justify-self: center;
   }
   
@@ -286,7 +287,7 @@ section{
     font-weight: 300;
     text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.01);
     margin-bottom: var(--mb-2);
-    margin-top: var(--mb-2);
+    margin-top: var(--mb-6);
   }
 
   .home-data h1 span{
@@ -421,7 +422,7 @@ section{
     .nav{
       height: calc(var(--header-height) + 1.5rem);
     }
-    .home-img{
+    .home-img img{
       width: 100%;
     }
     .home-data h1{
@@ -455,7 +456,7 @@ section{
     .nav{
       height: calc(var(--header-height) + 1.5rem);
     }
-    .home-img{
+    .home-img img{
       width: 330px;
     }
     .container-social{
@@ -493,7 +494,7 @@ section{
       align-items: center;
     }
   
-    .home-img{
+    .home-img img{
       width: 420px;
     }
 
@@ -539,13 +540,13 @@ section{
       display: none;
     }
     .container-social{
-      padding: 7rem 0 0;
+      padding: 5rem 0 0;
       justify-content: center;
     }
     .container-social .icon{
       cursor: pointer;
     }
-    .home-img{
+    .home-img img{
       width: 450px;
     }
     .home-data h1{
@@ -559,15 +560,15 @@ section{
 
   @media screen and (min-width: 968px){
     section{
-      padding-top: 11rem;
+      padding-top: 10rem;
     }
     .bd-container{
       margin-left: auto;
       margin-right: auto;
     }
   
-    .home-img{
-      width: 470px;
+    .home-img img{
+      width: 570px;
     }
 
     .home-data h1{

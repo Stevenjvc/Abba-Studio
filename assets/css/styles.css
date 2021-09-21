@@ -579,3 +579,29 @@ section{
       font-size: var(--big-font-size);
     }
   }
+
+  @media screen and (min-width: 1366px){
+    section{
+      padding-top: 15rem;
+    }
+    .bd-container{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .home-img img{
+      width: 570px;
+    }
+
+    .home-data h1{
+      font-size: var(--big-font-size);
+    }
+
+    .home-data h1 span{
+      font-size: var(--big-font-size);
+    }
+    .container-social{
+      padding: 9rem 0 0;
+      justify-content: center;
+    }
+  }
